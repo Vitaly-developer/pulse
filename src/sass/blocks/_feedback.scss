@@ -1,0 +1,56 @@
+.feedback {
+    min-height: 950px;
+    &__title {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #0d0d0d;
+    }
+    &__person {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        border-bottom: 1px solid#f6f6f6;
+        padding: 45px 0;
+        &:last-child {
+            border-bottom: none
+        }
+        @media (max-width: 575px) {
+            display: block;
+            text-align: center;
+        }
+    }
+    &__img {
+        margin-right: 62px;
+        @media (max-width: 575px) {
+            margin-right: 0;
+        }
+    }
+    &__name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0d0d0d;
+    margin-bottom: 10px;
+    @media (max-width: 575px) {
+        margin: 10px 0;
+    }
+    }
+    &__titul {
+    font-size: 14px;
+    font-weight: 300;
+    color: #646464;
+    margin-bottom: 15px;
+    }
+    &__descr {
+        font-size: 16px;
+        font-weight: 300;
+        color: #0d0d0d;
+    }
+    p {
+        margin-bottom: 25px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

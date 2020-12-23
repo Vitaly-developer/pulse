@@ -12,6 +12,10 @@
         width: 128px;
         height: 26px;
     }
+    &:hover {
+        box-shadow: 3px 3px 20px $main-color;
+        border: solid 1px white;
+    }
     &_main {
         width: 300px;
         height: 50px;
@@ -21,7 +25,19 @@
             margin: 67px auto;
             width: 240px;
             height: 44px;
-        }
-        
+        } 
+    }
+    &_submit {
+        width: 100%;
+        height: 55px;
+        background-color: $main-color;
+        border-radius: 5px; 
+        font-size: 16px;
+        color: #ffffff;
+    }
+    &_mini {
+        width: 131px;
+        height: 40px;
+        font-size: 14px;
     }
 }

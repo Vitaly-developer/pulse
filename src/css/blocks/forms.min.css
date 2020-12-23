@@ -1,0 +1,1 @@
+.feed-form{margin-top:36px;display:flex;flex-direction:column;width:300px}@media (max-width:575px){.feed-form{width:290px;margin:0 auto}}.feed-form input{height:50px;background-color:#fff;border-radius:5px;margin-bottom:15px;padding:0 20px;border:none;font-size:14px;font-weight:300;color:#4b4b4b}.feed-form input:last-of-type{margin-bottom:20px}
